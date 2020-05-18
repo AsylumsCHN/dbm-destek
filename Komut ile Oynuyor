@@ -1,0 +1,35 @@
+{
+  "name": "oynuyor",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "zJrgv",
+  "actions": [
+    {
+      "info": "1",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "text",
+      "name": "Store Command Params"
+    },
+    {
+      "gameName": "${tempVars(\"text\")}",
+      "gameLink": "",
+      "name": "Set Bot Game"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "Şuan oynuyorum : **${tempVars(\"text\")}**",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "comment": "Asylums#0001",
+      "color": "#ea1700",
+      "name": "Comment"
+    }
+  ]
+}

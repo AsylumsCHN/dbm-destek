@@ -1,0 +1,148 @@
+KİLİTLEME 
+
+
+{
+  "name": "kilitle",
+  "permissions": "MANAGE_CHANNELS",
+  "restriction": "1",
+  "_id": "XAMLt",
+  "actions": [
+    {
+      "member": "1",
+      "varName": "",
+      "permission": "MANAGE_CHANNELS",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "1",
+      "iffalseVal": "8",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "permission": "SEND_MESSAGES",
+      "state": "1",
+      "name": "Set Channel Permissions"
+    },
+    {
+      "title": "",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "asylumswashere",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "asylumswashere",
+      "message": "🔒 Kanal Kilitlendi!",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "asylumswashere",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "comment": "Asylums Was Here#0001",
+      "color": "#800000",
+      "name": "Comment"
+    }
+  ]
+}
+
+
+
+KİLİT AÇMA
+
+
+
+{
+  "name": "kilitaç",
+  "permissions": "MANAGE_CHANNELS",
+  "restriction": "1",
+  "_id": "yjkpf",
+  "actions": [
+    {
+      "member": "1",
+      "varName": "",
+      "permission": "MANAGE_CHANNELS",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "1",
+      "iffalseVal": "8",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "permission": "SEND_MESSAGES",
+      "state": "0",
+      "name": "Set Channel Permissions"
+    },
+    {
+      "title": "",
+      "author": "",
+      "color": "GREEN",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "asylumswashere",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "asylumswashere",
+      "message": "🔓 Kilit Açıldı",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "asylumswashere",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "comment": "Asylums Was Here#0001",
+      "color": "#800000",
+      "name": "Comment"
+    }
+  ]
+}
